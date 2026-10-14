@@ -1,0 +1,27 @@
+# ---- Frontend (React / Vite) ----
+node_modules/
+dist/
+*.local
+
+# ---- Backend (Go) ----
+# compiled binaries
+backend/long-polling-backend
+*.exe
+*.test
+*.out
+
+# ---- Environment files ----
+.env
+.env.*
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+
+# ---- Test tool output ----
+.playwright-mcp/
